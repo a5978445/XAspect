@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1489B1FF2230AFDC00825C7B"
-               BuildableName = "XAspectKit.framework"
-               BlueprintName = "XAspectKit"
-               ReferencedContainer = "container:XAspectKit.xcodeproj">
+               BuildableName = "XAspect.framework"
+               BlueprintName = "XAspect"
+               ReferencedContainer = "container:XAspect.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,9 +46,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1489B1FF2230AFDC00825C7B"
-            BuildableName = "XAspectKit.framework"
-            BlueprintName = "XAspectKit"
-            ReferencedContainer = "container:XAspectKit.xcodeproj">
+            BuildableName = "XAspect.framework"
+            BlueprintName = "XAspect"
+            ReferencedContainer = "container:XAspect.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -64,9 +64,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1489B1FF2230AFDC00825C7B"
-            BuildableName = "XAspectKit.framework"
-            BlueprintName = "XAspectKit"
-            ReferencedContainer = "container:XAspectKit.xcodeproj">
+            BuildableName = "XAspect.framework"
+            BlueprintName = "XAspect"
+            ReferencedContainer = "container:XAspect.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

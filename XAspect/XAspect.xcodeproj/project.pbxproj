@@ -13,7 +13,7 @@
 		1489B21E2230B00800825C7B /* XAWeaveHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1489B20F2230B00800825C7B /* XAWeaveHandler.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		1489B21F2230B00800825C7B /* XACrystallization.h in Headers */ = {isa = PBXBuildFile; fileRef = 1489B2102230B00800825C7B /* XACrystallization.h */; };
 		1489B2202230B00800825C7B /* XACExtensions.c in Sources */ = {isa = PBXBuildFile; fileRef = 1489B2112230B00800825C7B /* XACExtensions.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1489B2212230B00800825C7B /* XAspect.h in Headers */ = {isa = PBXBuildFile; fileRef = 1489B2122230B00800825C7B /* XAspect.h */; };
+		1489B2212230B00800825C7B /* XAspect.h in Headers */ = {isa = PBXBuildFile; fileRef = 1489B2122230B00800825C7B /* XAspect.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1489B2242230B00800825C7B /* XAExtObjcMetamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 1489B2172230B00800825C7B /* XAExtObjcMetamacros.h */; };
 		1489B2252230B00800825C7B /* XAFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1489B2182230B00800825C7B /* XAFoundation.h */; };
 		1489B2262230B00800825C7B /* XADebugMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 1489B2192230B00800825C7B /* XADebugMacros.h */; };
@@ -22,7 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1489B2002230AFDC00825C7B /* XAspectKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XAspectKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1489B2002230AFDC00825C7B /* XAspect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XAspect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1489B2042230AFDC00825C7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1489B20C2230B00800825C7B /* XACrystallization.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XACrystallization.cpp; sourceTree = "<group>"; };
 		1489B20D2230B00800825C7B /* XACExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XACExtensions.h; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 		1489B1F62230AFDC00825C7B = {
 			isa = PBXGroup;
 			children = (
-				1489B2022230AFDC00825C7B /* XAspectKit */,
+				1489B2022230AFDC00825C7B /* XAspect */,
 				1489B2012230AFDC00825C7B /* Products */,
 				1489B2282230B14400825C7B /* Frameworks */,
 			);
@@ -62,12 +62,12 @@
 		1489B2012230AFDC00825C7B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1489B2002230AFDC00825C7B /* XAspectKit.framework */,
+				1489B2002230AFDC00825C7B /* XAspect.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1489B2022230AFDC00825C7B /* XAspectKit */ = {
+		1489B2022230AFDC00825C7B /* XAspect */ = {
 			isa = PBXGroup;
 			children = (
 				1489B20B2230B00800825C7B /* Core */,
@@ -75,7 +75,7 @@
 				1489B2122230B00800825C7B /* XAspect.h */,
 				1489B2042230AFDC00825C7B /* Info.plist */,
 			);
-			path = XAspectKit;
+			path = XAspect;
 			sourceTree = "<group>";
 		};
 		1489B20B2230B00800825C7B /* Core */ = {
@@ -133,9 +133,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1489B1FF2230AFDC00825C7B /* XAspectKit */ = {
+		1489B1FF2230AFDC00825C7B /* XAspect */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1489B2082230AFDC00825C7B /* Build configuration list for PBXNativeTarget "XAspectKit" */;
+			buildConfigurationList = 1489B2082230AFDC00825C7B /* Build configuration list for PBXNativeTarget "XAspect" */;
 			buildPhases = (
 				1489B1FB2230AFDC00825C7B /* Headers */,
 				1489B1FC2230AFDC00825C7B /* Sources */,
@@ -146,9 +146,9 @@
 			);
 			dependencies = (
 			);
-			name = XAspectKit;
+			name = XAspect;
 			productName = XAspectKit;
-			productReference = 1489B2002230AFDC00825C7B /* XAspectKit.framework */;
+			productReference = 1489B2002230AFDC00825C7B /* XAspect.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -165,7 +165,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1489B1FA2230AFDC00825C7B /* Build configuration list for PBXProject "XAspectKit" */;
+			buildConfigurationList = 1489B1FA2230AFDC00825C7B /* Build configuration list for PBXProject "XAspect" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -177,7 +177,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1489B1FF2230AFDC00825C7B /* XAspectKit */,
+				1489B1FF2230AFDC00825C7B /* XAspect */,
 			);
 		};
 /* End PBXProject section */
@@ -334,7 +334,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = XAspectKit/Info.plist;
+				INFOPLIST_FILE = XAspect/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -358,7 +358,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = XAspectKit/Info.plist;
+				INFOPLIST_FILE = XAspect/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -375,7 +375,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1489B1FA2230AFDC00825C7B /* Build configuration list for PBXProject "XAspectKit" */ = {
+		1489B1FA2230AFDC00825C7B /* Build configuration list for PBXProject "XAspect" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1489B2062230AFDC00825C7B /* Debug */,
@@ -384,7 +384,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1489B2082230AFDC00825C7B /* Build configuration list for PBXNativeTarget "XAspectKit" */ = {
+		1489B2082230AFDC00825C7B /* Build configuration list for PBXNativeTarget "XAspect" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1489B2092230AFDC00825C7B /* Debug */,
