@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		1489B21B2230B00800825C7B /* XACrystallization.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1489B20C2230B00800825C7B /* XACrystallization.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		1489B21C2230B00800825C7B /* XACExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1489B20D2230B00800825C7B /* XACExtensions.h */; };
-		1489B21D2230B00800825C7B /* XAWeaveHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 1489B20E2230B00800825C7B /* XAWeaveHandler.h */; };
+		1489B21D2230B00800825C7B /* XAWeaveHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 1489B20E2230B00800825C7B /* XAWeaveHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1489B21E2230B00800825C7B /* XAWeaveHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1489B20F2230B00800825C7B /* XAWeaveHandler.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		1489B21F2230B00800825C7B /* XACrystallization.h in Headers */ = {isa = PBXBuildFile; fileRef = 1489B2102230B00800825C7B /* XACrystallization.h */; };
 		1489B2202230B00800825C7B /* XACExtensions.c in Sources */ = {isa = PBXBuildFile; fileRef = 1489B2112230B00800825C7B /* XACExtensions.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -17,7 +17,7 @@
 		1489B2242230B00800825C7B /* XAExtObjcMetamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 1489B2172230B00800825C7B /* XAExtObjcMetamacros.h */; };
 		1489B2252230B00800825C7B /* XAFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1489B2182230B00800825C7B /* XAFoundation.h */; };
 		1489B2262230B00800825C7B /* XADebugMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 1489B2192230B00800825C7B /* XADebugMacros.h */; };
-		1489B2272230B00800825C7B /* XAObjcMetaprogramming.h in Headers */ = {isa = PBXBuildFile; fileRef = 1489B21A2230B00800825C7B /* XAObjcMetaprogramming.h */; };
+		1489B2272230B00800825C7B /* XAObjcMetaprogramming.h in Headers */ = {isa = PBXBuildFile; fileRef = 1489B21A2230B00800825C7B /* XAObjcMetaprogramming.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1489B22A2230B14400825C7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1489B2292230B14400825C7B /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
