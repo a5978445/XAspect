@@ -19,7 +19,49 @@
 		1489B2262230B00800825C7B /* XADebugMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 1489B2192230B00800825C7B /* XADebugMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1489B2272230B00800825C7B /* XAObjcMetaprogramming.h in Headers */ = {isa = PBXBuildFile; fileRef = 1489B21A2230B00800825C7B /* XAObjcMetaprogramming.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1489B22A2230B14400825C7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1489B2292230B14400825C7B /* Foundation.framework */; };
+		1489B23C2230C1DC00825C7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1489B23B2230C1DC00825C7B /* AppDelegate.m */; };
+		1489B23F2230C1DC00825C7B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1489B23E2230C1DC00825C7B /* ViewController.m */; };
+		1489B2422230C1DC00825C7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1489B2402230C1DC00825C7B /* Main.storyboard */; };
+		1489B2442230C1DD00825C7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1489B2432230C1DD00825C7B /* Assets.xcassets */; };
+		1489B2472230C1DD00825C7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1489B2452230C1DD00825C7B /* LaunchScreen.storyboard */; };
+		1489B24A2230C1DD00825C7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1489B2492230C1DD00825C7B /* main.m */; };
+		1489B2542230C1DD00825C7B /* XAspectDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1489B2532230C1DD00825C7B /* XAspectDemoUITests.m */; };
+		1489B25D2230C20000825C7B /* Aspect-ObjectAllocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1489B25C2230C20000825C7B /* Aspect-ObjectAllocation.m */; };
+		1489B25E2230C2EF00825C7B /* XAspect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1489B2002230AFDC00825C7B /* XAspect.framework */; };
+		1489B25F2230C2EF00825C7B /* XAspect.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1489B2002230AFDC00825C7B /* XAspect.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1489B2642230C3B500825C7B /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1489B2632230C3B500825C7B /* libc++.tbd */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1489B2502230C1DD00825C7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1489B1F72230AFDC00825C7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1489B2372230C1DC00825C7B;
+			remoteInfo = XAspectDemo;
+		};
+		1489B2602230C2EF00825C7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1489B1F72230AFDC00825C7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1489B1FF2230AFDC00825C7B;
+			remoteInfo = XAspect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1489B2622230C2EF00825C7B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1489B25F2230C2EF00825C7B /* XAspect.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1489B2002230AFDC00825C7B /* XAspect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XAspect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +78,21 @@
 		1489B2192230B00800825C7B /* XADebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADebugMacros.h; sourceTree = "<group>"; };
 		1489B21A2230B00800825C7B /* XAObjcMetaprogramming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAObjcMetaprogramming.h; sourceTree = "<group>"; };
 		1489B2292230B14400825C7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1489B2382230C1DC00825C7B /* XAspectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XAspectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1489B23A2230C1DC00825C7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1489B23B2230C1DC00825C7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1489B23D2230C1DC00825C7B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1489B23E2230C1DC00825C7B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1489B2412230C1DC00825C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1489B2432230C1DD00825C7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1489B2462230C1DD00825C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1489B2482230C1DD00825C7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1489B2492230C1DD00825C7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1489B24F2230C1DD00825C7B /* XAspectDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XAspectDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1489B2532230C1DD00825C7B /* XAspectDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XAspectDemoUITests.m; sourceTree = "<group>"; };
+		1489B2552230C1DD00825C7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1489B25C2230C20000825C7B /* Aspect-ObjectAllocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Aspect-ObjectAllocation.m"; path = "../../XAspectDev/XAspectDev/Aspects/Aspect-ObjectAllocation.m"; sourceTree = "<group>"; };
+		1489B2632230C3B500825C7B /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +104,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1489B2352230C1DC00825C7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1489B2642230C3B500825C7B /* libc++.tbd in Frameworks */,
+				1489B25E2230C2EF00825C7B /* XAspect.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1489B24C2230C1DD00825C7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -54,6 +127,8 @@
 			isa = PBXGroup;
 			children = (
 				1489B2022230AFDC00825C7B /* XAspect */,
+				1489B2392230C1DC00825C7B /* XAspectDemo */,
+				1489B2522230C1DD00825C7B /* XAspectDemoUITests */,
 				1489B2012230AFDC00825C7B /* Products */,
 				1489B2282230B14400825C7B /* Frameworks */,
 			);
@@ -63,6 +138,8 @@
 			isa = PBXGroup;
 			children = (
 				1489B2002230AFDC00825C7B /* XAspect.framework */,
+				1489B2382230C1DC00825C7B /* XAspectDemo.app */,
+				1489B24F2230C1DD00825C7B /* XAspectDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,9 +184,36 @@
 		1489B2282230B14400825C7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1489B2632230C3B500825C7B /* libc++.tbd */,
 				1489B2292230B14400825C7B /* Foundation.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1489B2392230C1DC00825C7B /* XAspectDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1489B23A2230C1DC00825C7B /* AppDelegate.h */,
+				1489B23B2230C1DC00825C7B /* AppDelegate.m */,
+				1489B25C2230C20000825C7B /* Aspect-ObjectAllocation.m */,
+				1489B23D2230C1DC00825C7B /* ViewController.h */,
+				1489B23E2230C1DC00825C7B /* ViewController.m */,
+				1489B2402230C1DC00825C7B /* Main.storyboard */,
+				1489B2432230C1DD00825C7B /* Assets.xcassets */,
+				1489B2452230C1DD00825C7B /* LaunchScreen.storyboard */,
+				1489B2482230C1DD00825C7B /* Info.plist */,
+				1489B2492230C1DD00825C7B /* main.m */,
+			);
+			path = XAspectDemo;
+			sourceTree = "<group>";
+		};
+		1489B2522230C1DD00825C7B /* XAspectDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1489B2532230C1DD00825C7B /* XAspectDemoUITests.m */,
+				1489B2552230C1DD00825C7B /* Info.plist */,
+			);
+			path = XAspectDemoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +255,43 @@
 			productReference = 1489B2002230AFDC00825C7B /* XAspect.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		1489B2372230C1DC00825C7B /* XAspectDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1489B25A2230C1DD00825C7B /* Build configuration list for PBXNativeTarget "XAspectDemo" */;
+			buildPhases = (
+				1489B2342230C1DC00825C7B /* Sources */,
+				1489B2352230C1DC00825C7B /* Frameworks */,
+				1489B2362230C1DC00825C7B /* Resources */,
+				1489B2622230C2EF00825C7B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1489B2612230C2EF00825C7B /* PBXTargetDependency */,
+			);
+			name = XAspectDemo;
+			productName = XAspectDemo;
+			productReference = 1489B2382230C1DC00825C7B /* XAspectDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1489B24E2230C1DD00825C7B /* XAspectDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1489B25B2230C1DD00825C7B /* Build configuration list for PBXNativeTarget "XAspectDemoUITests" */;
+			buildPhases = (
+				1489B24B2230C1DD00825C7B /* Sources */,
+				1489B24C2230C1DD00825C7B /* Frameworks */,
+				1489B24D2230C1DD00825C7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1489B2512230C1DD00825C7B /* PBXTargetDependency */,
+			);
+			name = XAspectDemoUITests;
+			productName = XAspectDemoUITests;
+			productReference = 1489B24F2230C1DD00825C7B /* XAspectDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -163,6 +304,13 @@
 					1489B1FF2230AFDC00825C7B = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					1489B2372230C1DC00825C7B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					1489B24E2230C1DD00825C7B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1489B2372230C1DC00825C7B;
+					};
 				};
 			};
 			buildConfigurationList = 1489B1FA2230AFDC00825C7B /* Build configuration list for PBXProject "XAspect" */;
@@ -171,6 +319,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 1489B1F62230AFDC00825C7B;
 			productRefGroup = 1489B2012230AFDC00825C7B /* Products */;
@@ -178,12 +327,31 @@
 			projectRoot = "";
 			targets = (
 				1489B1FF2230AFDC00825C7B /* XAspect */,
+				1489B2372230C1DC00825C7B /* XAspectDemo */,
+				1489B24E2230C1DD00825C7B /* XAspectDemoUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1489B1FE2230AFDC00825C7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1489B2362230C1DC00825C7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1489B2472230C1DD00825C7B /* LaunchScreen.storyboard in Resources */,
+				1489B2442230C1DD00825C7B /* Assets.xcassets in Resources */,
+				1489B2422230C1DC00825C7B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1489B24D2230C1DD00825C7B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -203,7 +371,58 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1489B2342230C1DC00825C7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1489B23F2230C1DC00825C7B /* ViewController.m in Sources */,
+				1489B24A2230C1DD00825C7B /* main.m in Sources */,
+				1489B25D2230C20000825C7B /* Aspect-ObjectAllocation.m in Sources */,
+				1489B23C2230C1DC00825C7B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1489B24B2230C1DD00825C7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1489B2542230C1DD00825C7B /* XAspectDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1489B2512230C1DD00825C7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1489B2372230C1DC00825C7B /* XAspectDemo */;
+			targetProxy = 1489B2502230C1DD00825C7B /* PBXContainerItemProxy */;
+		};
+		1489B2612230C2EF00825C7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1489B1FF2230AFDC00825C7B /* XAspect */;
+			targetProxy = 1489B2602230C2EF00825C7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1489B2402230C1DC00825C7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1489B2412230C1DC00825C7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1489B2452230C1DD00825C7B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1489B2462230C1DD00825C7B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1489B2062230AFDC00825C7B /* Debug */ = {
@@ -341,6 +560,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.xaree.lee.XAspect;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -365,10 +585,81 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.xaree.lee.XAspect;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1489B2562230C1DD00825C7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8ML633GQS;
+				INFOPLIST_FILE = XAspectDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsbc.XAspectDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1489B2572230C1DD00825C7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8ML633GQS;
+				INFOPLIST_FILE = XAspectDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsbc.XAspectDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1489B2582230C1DD00825C7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8ML633GQS;
+				INFOPLIST_FILE = XAspectDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsbc.XAspectDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XAspectDemo;
+			};
+			name = Debug;
+		};
+		1489B2592230C1DD00825C7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8ML633GQS;
+				INFOPLIST_FILE = XAspectDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsbc.XAspectDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XAspectDemo;
 			};
 			name = Release;
 		};
@@ -389,6 +680,24 @@
 			buildConfigurations = (
 				1489B2092230AFDC00825C7B /* Debug */,
 				1489B20A2230AFDC00825C7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1489B25A2230C1DD00825C7B /* Build configuration list for PBXNativeTarget "XAspectDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1489B2562230C1DD00825C7B /* Debug */,
+				1489B2572230C1DD00825C7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1489B25B2230C1DD00825C7B /* Build configuration list for PBXNativeTarget "XAspectDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1489B2582230C1DD00825C7B /* Debug */,
+				1489B2592230C1DD00825C7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
